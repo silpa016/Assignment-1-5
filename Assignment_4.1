@@ -1,0 +1,20 @@
+class Triangle:
+ def __init__(self, side1, side2, side3):
+  self.side1 = side1
+  self.side2 = side2
+  self.side3 = side3
+  print ("Initialised Triagle super class [" +  str(side1) + "," + str(side2) + "," + str(side3) + "]")
+
+class Triangle_Area(Triangle):
+ 
+ def __init__(self, side1, side2, side3):
+  print ("Initialised Utils Child class" )
+  super(Triangle_Area, self).__init__(side1, side2, side3)
+
+ def get_area(self):
+  s = (self.side1 + self.side2 + self.side3)/2
+  print (str(s))
+  return (s*(s-self.side1)*(s-self.side2)*(s-self.side3))**0.5
+
+instance = Triangle_Area(5,4,7)
+print ("Area of triangle = " + str(instance.get_area()) )
