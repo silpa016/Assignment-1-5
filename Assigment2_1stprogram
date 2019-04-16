@@ -1,0 +1,8 @@
+write a program which accepts multiple numbers separated by comma from console and generate a list
+x=input("Enter comma separated values")
+values=x.split(',')
+print(list(values))
+
+o/p:
+Enter comma separated values12,13,14,15,20
+['12', '13', '14', '15', '20']

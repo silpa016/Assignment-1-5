@@ -1,0 +1,6 @@
+s=input("enter a string:")
+revstr=s[::-1]
+print(revstr)
+
+enter a string:Acadgild
+dligdacA
