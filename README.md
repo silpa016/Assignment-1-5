@@ -1,13 +1,8 @@
 Assignment1 prog1
 num1 = 2.5
 num2 = 2.5
-
-# Add two numbers
 sum = float(num1) + float(num2)
-
-# Display the sum
 print('The sum of {0} and {1} is {2}'.format(num1, num2, sum))
-
 
 Assignment1 prog2
 l=[]
@@ -16,7 +11,6 @@ for i in range(2000, 3200):
         l.append(str(i))
 
 print (','.join(l))signment 1 prog 2
-
 
 Assignment 1 prog 3
 first_name=input("enter first name")
